@@ -10,9 +10,11 @@
   <a href="https://github.com/Jack-Lat/NasaFIX">
     <img alt="Platform" src="https://img.shields.io/badge/Platform-Windows%2010%2F11-0078D6?style=for-the-badge&logo=windows&logoColor=white">
   </a>
-  <a href="https://github.com/Jack-Lat/NasaFIX/releases">
-    <img alt="Version" src="https://img.shields.io/github/v/tag/Jack-Lat/NasaFIX?style=for-the-badge&color=green&label=version">
-  </a>
+  <p align="center">
+    <a href="https://github.com/Jack-Lat/NasaFIX/releases">
+      <img alt="Pre-release" src="https://img.shields.io/badge/release-pre--release-orange?style=for-the-badge">
+    </a>
+  </p>
   <a href="https://github.com/Jack-Lat/NasaFIX/releases">
     <img alt="Downloads" src="https://img.shields.io/github/downloads/Jack-Lat/NasaFIX/total?style=for-the-badge&color=blue&label=downloads">
   </a>
@@ -39,21 +41,39 @@
 ## 🖼️ Интерфейс
 
 <div align="center">
-  <img src="assets/screenshot-main.png" alt="Главная" width="800">
-  
-  <details>
-    <summary><b>Ещё скриншоты</b></summary>
-    <br>
-    
-    **Стратегии** — выбор и запуск пресетов обхода  
-    <img src="assets/screenshot-strategies.png" alt="Стратегии" width="800">
-    
-    **Настройки** — конфигурация режимов работы  
-    <img src="assets/screenshot-settings.png" alt="Настройки" width="800">
-    
-    **О программе** — информация, контакты, антивирусы  
-    <img src="assets/screenshot-about.png" alt="О программе" width="800">
-  </details>
+
+<img src="assets/screenshot-main.png" alt="Главная" width="900">
+
+<details>
+  <summary><b>Показать остальные скриншоты</b></summary>
+  <br>
+
+  <p align="center">
+    <b>Стратегии</b><br>
+    Выбор и запуск пресетов обхода
+    <br><br>
+    <img src="assets/screenshot-strategies.png" alt="Стратегии" width="900">
+  </p>
+
+  <br>
+
+  <p align="center">
+    <b>Настройки</b><br>
+    Конфигурация режимов работы
+    <br><br>
+    <img src="assets/screenshot-settings.png" alt="Настройки" width="900">
+  </p>
+
+  <br>
+
+  <p align="center">
+    <b>О программе</b><br>
+    Информация, контакты и предупреждения
+    <br><br>
+    <img src="assets/screenshot-about.png" alt="О программе" width="900">
+  </p>
+</details>
+
 </div>
 
 <br>

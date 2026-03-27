@@ -150,20 +150,34 @@
 ## 🛡️ Антивирусы
 
 > [!WARNING]
-> **WinDivert может вызвать реакцию антивируса.**
-<a href="https://www.virustotal.com/gui/file/1003f7ccd4c4ecb2af26b801144d05058ab1ba9e99d1cee9eab81bbbaebffdfc">
-  <img alt="VirusTotal" src="https://img.shields.io/badge/VirusTotal-NasaFIX-394EFF?style=flat-square&logo=virustotal&logoColor=white">
-</a>
-WinDivert — это легитимный инструмент для перехвата и фильтрации сетевого трафика (аналог `iptables` + `NFQUEUE` в Linux). Он необходим для работы zapret-стратегий.
+> **WinDivert может вызывать срабатывание антивирусов.**  
+> Это связано с тем, что WinDivert работает на уровне перехвата и фильтрации сетевого трафика.
 
-Некоторые антивирусы (особенно Kaspersky, Avast, ESET) могут определять его как `Not-a-virus:RiskTool.Multi.WinDivert` или просто `WinDivert`.
+<p>
+  <a href="https://www.virustotal.com/gui/file/1003f7ccd4c4ecb2af26b801144d05058ab1ba9e99d1cee9eab81bbbaebffdfc">
+    <img alt="VirusTotal" src="https://img.shields.io/badge/VirusTotal-WinDivert-394EFF?style=flat-square&logo=virustotal&logoColor=white">
+  </a>
+</p>
 
-**Что делать:**
-- Добавить папку с NasaFIX в исключения антивируса (рекомендуется)
-- Отключить проверку PUA (Potentially Unwanted Applications)
+WinDivert — это **легитимный системный драйвер и инструмент фильтрации трафика**, используемый для работы DPI-стратегий.  
+По сути, это Windows-аналог связки `iptables` + `NFQUEUE` из Linux.
+
+Некоторые антивирусы, особенно **Kaspersky**, **Avast**, **ESET** и другие, могут классифицировать WinDivert как:
+
+- `WinDivert`
+- `Not-a-virus:RiskTool.Multi.WinDivert`
+
+Это **не означает, что файл является вирусом** — подобные детекты часто относятся к инструментам повышенного риска, которые могут использоваться как в легитимных, так и в нежелательных сценариях.
+
+### Что делать, если антивирус блокирует NasaFIX
+
+- **Рекомендуется:** добавить папку с NasaFIX в исключения антивируса
+- **Альтернатива:** отключить проверку **PUA / Potentially Unwanted Applications**
+- Если файл уже был удалён — восстановите его из карантина и добавьте исключение
 
 > [!IMPORTANT]
-> Все бинарные файлы в папке `bin` взяты из официального репозитория [bol-van/zapret-win-bundle](https://github.com/bol-van/zapret-win-bundle). Вы можете проверить их по хэшам.
+> Все бинарные файлы в папке `bin` взяты из официального репозитория [bol-van/zapret-win-bundle](https://github.com/bol-van/zapret-win-bundle).  
+> При желании вы можете проверить их по контрольным суммам или хэшам.
 
 <br>
 

@@ -160,6 +160,11 @@ WinDivert — это легитимный инструмент для перех
 - Добавить папку с NasaFIX в исключения антивируса (рекомендуется)
 - Отключить проверку PUA (Potentially Unwanted Applications)
 
+🔗 **Проверка WinDivert в VirusTotal:**  
+<a href="https://www.virustotal.com/gui/file/1003f7ccd4c4ecb2af26b801144d05058ab1ba9e99d1cee9eab81bbbaebffdfc">
+  <img alt="VirusTotal" src="https://img.shields.io/badge/VirusTotal-Check%20WinDivert-394EFF?style=flat-square&logo=virustotal&logoColor=white">
+</a>
+
 > [!IMPORTANT]
 > Все бинарные файлы в папке `bin` взяты из официального репозитория [bol-van/zapret-win-bundle](https://github.com/bol-van/zapret-win-bundle). Вы можете проверить их по хэшам.
 

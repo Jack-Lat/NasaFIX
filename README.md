@@ -151,7 +151,9 @@
 
 > [!WARNING]
 > **WinDivert может вызвать реакцию антивируса.**
-
+<a href="https://www.virustotal.com/gui/file/1003f7ccd4c4ecb2af26b801144d05058ab1ba9e99d1cee9eab81bbbaebffdfc">
+  <img alt="VirusTotal" src="https://img.shields.io/badge/VirusTotal-NasaFIX-394EFF?style=flat-square&logo=virustotal&logoColor=white">
+</a>
 WinDivert — это легитимный инструмент для перехвата и фильтрации сетевого трафика (аналог `iptables` + `NFQUEUE` в Linux). Он необходим для работы zapret-стратегий.
 
 Некоторые антивирусы (особенно Kaspersky, Avast, ESET) могут определять его как `Not-a-virus:RiskTool.Multi.WinDivert` или просто `WinDivert`.
@@ -159,11 +161,6 @@ WinDivert — это легитимный инструмент для перех
 **Что делать:**
 - Добавить папку с NasaFIX в исключения антивируса (рекомендуется)
 - Отключить проверку PUA (Potentially Unwanted Applications)
-
-🔗 **Проверка WinDivert в VirusTotal:**  
-<a href="https://www.virustotal.com/gui/file/1003f7ccd4c4ecb2af26b801144d05058ab1ba9e99d1cee9eab81bbbaebffdfc">
-  <img alt="VirusTotal" src="https://img.shields.io/badge/VirusTotal-Check%20WinDivert-394EFF?style=flat-square&logo=virustotal&logoColor=white">
-</a>
 
 > [!IMPORTANT]
 > Все бинарные файлы в папке `bin` взяты из официального репозитория [bol-van/zapret-win-bundle](https://github.com/bol-van/zapret-win-bundle). Вы можете проверить их по хэшам.

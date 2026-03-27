@@ -4,16 +4,16 @@
   
   <h1>NasaFIX</h1>
   
-  <p><strong>Графический интерфейс для управления стратегиями обхода DPI на базе <a href="https://github.com/bol-van/zapret">zapret</a></strong></p>
+  <p><strong>Сервис для управления стратегиями обхода DPI на базе <a href="https://github.com/bol-van/zapret">zapret</a></strong></p>
   <p>Тестируйте, выбирайте и запускайте оптимальную стратегию для вашего провайдера — в один клик.</p>
   <br>
 
   <a href="https://github.com/Jack-Lat/NasaFIX">
-    <img alt="Platform" src="https://img.shields.io/badge/Windows_10%2F11-0078D6?style=for-the-badge&logo=windows&logoColor=white">
+    <img alt="Platform" src="https://img.shields.io/badge/Platform-Windows%2010%2F11-0078D6?style=for-the-badge&logo=windows&logoColor=white">
   </a>
   <br>
   <a href="https://github.com/Jack-Lat/NasaFIX/releases/latest">
-    <img alt="Release" src="https://img.shields.io/github/v/release/Jack-Lat/NasaFIX?style=for-the-badge&color=green&label=Версия">
+    <img alt="Release" src="https://img.shields.io/github/v/release/Jack-Lat/NasaFIX?style=for-the-badge&color=green&label=release">
   </a>
   <br>
   <a href="https://github.com/Jack-Lat/NasaFIX/releases">

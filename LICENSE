@@ -1,0 +1,11 @@
+No License
+
+Copyright (c) 2026 NASAFIX. All Rights Reserved.
+
+The source code and all assets of this project are proprietary.
+Unauthorized copying, modification, distribution, or use of this 
+software or any part of it is strictly prohibited.
+
+This program uses the WinDivert library (licensed under LGPL-3.0).
+This project uses techniques inspired by the "zapret-discord" project 
+(https://github.com/Flowseal/zapret-discord-youtube).

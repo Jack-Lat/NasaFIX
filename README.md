@@ -6,24 +6,20 @@
   
   <p><strong>Сервис для управления стратегиями обхода DPI на базе <a href="https://github.com/bol-van/zapret">zapret</a></strong></p>
   <p>Тестируйте, выбирайте и запускайте оптимальную стратегию для вашего провайдера — в один клик.</p>
-  <br>
-
+  <p align="center">
   <a href="https://github.com/Jack-Lat/NasaFIX">
     <img alt="Platform" src="https://img.shields.io/badge/Platform-Windows%2010%2F11-0078D6?style=for-the-badge&logo=windows&logoColor=white">
   </a>
-  <br>
-  <a href="https://github.com/Jack-Lat/NasaFIX/releases/latest">
-    <img alt="Release" src="https://img.shields.io/github/v/release/Jack-Lat/NasaFIX?style=for-the-badge&color=green&label=release">
-  </a>
-  <br>
   <a href="https://github.com/Jack-Lat/NasaFIX/releases">
-    <img alt="Downloads" src="https://img.shields.io/github/downloads/Jack-Lat/NasaFIX/total?style=for-the-badge&color=blue&label=Скачивания">
+    <img alt="Version" src="https://img.shields.io/github/v/tag/Jack-Lat/NasaFIX?style=for-the-badge&color=green&label=version">
   </a>
-  <br>
+  <a href="https://github.com/Jack-Lat/NasaFIX/releases">
+    <img alt="Downloads" src="https://img.shields.io/github/downloads/Jack-Lat/NasaFIX/total?style=for-the-badge&color=blue&label=downloads">
+  </a>
   <a href="https://github.com/Jack-Lat/NasaFIX/blob/main/LICENSE">
-    <img alt="License" src="https://img.shields.io/badge/All_Rights_Reserved-grey?style=for-the-badge">
+    <img alt="License" src="https://img.shields.io/badge/license-All%20Rights%20Reserved-grey?style=for-the-badge">
   </a>
-  <br><br>
+</p>
 
   <a href="#-установка">📥 Скачать</a> ·
   <a href="#-быстрый-старт">⚡ Быстрый старт</a> ·
